@@ -11,16 +11,16 @@
 
 	<body>
 		<h1>Welcome to "We Cell Phones!"</h1>
-		<form action="customerBackend.php" onsubmit="return check()" method="post">
+		<form name="f" action="customerBackend.php" onsubmit="return check()" method="post">
 			<p> Please enter a username in the form of an email address:</p>
-			<input type="text" id="uname" name="uname">
+			<input type="text" name="uname">
 			<p> Please enter a password:</p>
-			<input type="password" id="pword" name="pname">
+			<input type="password" name="pname">
 			<p>What would you like to buy?</p>
-			Samsung Galaxy s6 $576.00 qty:<input type="text" id="s6" name="s6"><br>
-			iPhone 6s $650.00 qty:<input type="text" id="6s"name="6s"><br>
-			Moto G 2015 $180.00 qty:<input type="text" id="g" name="g"><br>
-			The "Brick" $20.00 qty:<input type="text" id="brick" name="brick"><br>
+			Samsung Galaxy s6 $576.00 qty:<input type="text" name="s6"><br>
+			iPhone 6s $650.00 qty:<input type="text" name="6s"><br>
+			Moto G 2015 $180.00 qty:<input type="text" name="g"><br>
+			The "Brick" $20.00 qty:<input type="text" name="brick"><br>
 			<p>Shipping options:</p>
 			<input type="radio" name="ship" value="50">Overnight: $50.00<br>
 			<input type="radio" name="ship" value="5">3 day: $5.00<br>
