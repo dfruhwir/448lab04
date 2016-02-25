@@ -1,11 +1,17 @@
 <html>
 	<head>
 		<title>We Cell Phones!</title>
+		<script type="text/javascript"
+        	src="formChecker.js">
+        </script>
+		<link href="style.css"
+            rel="stylesheet"
+            type="text/css"/>
 	</head>
 
 	<body>
 		<h1>Welcome to "We Cell Phones!"</h1>
-		<form action="customerBackend.php" method="post">
+		<form action="customerBackend.php" onsubmit="check()" method="post">
 			<p> Please enter a username in the form of an email address:</p>
 			<input type="email" id="uname">
 			<p> Please enter a password:</p>
