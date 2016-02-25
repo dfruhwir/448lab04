@@ -10,7 +10,7 @@ echo "</tr>";
 for ($y=1; $y<=100; $y++)//for each row
 {
 	echo "<tr>";
-	echo "<td>" . $x . "</td>"; //first column is row number
+	echo "<td>" . $y . "</td>"; //first column is row number
 	for($x=1; $x<=100; $x++)//for each column
 	{
 		echo "<td>" . $x*$y . "</td>"; //print multiplication of row and col
