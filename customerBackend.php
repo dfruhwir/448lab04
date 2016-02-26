@@ -31,7 +31,7 @@ echo "<tr><th>iPhone 6s</th><td>" . $i6s . "</td><td>$650.00</td><td>$" . 650*$i
 echo "<tr><th>Moto G 2015</th><td>" . $mg . "</td><td>$180.00</td><td>$" . 180*$mg . ".00</td></tr>";
 echo '<tr><th>The "Brick"</th><td>' . $b . "</td><td>$20.00</td><td>$" . 20*$b . ".00</td></tr>";
 echo "<tr><th>Shipping</th><td colspan='2'>" . $s . "</td><td>$" . $sp . ".00</td></tr>";
-echo "<tr><th colspan='3'>Total Cost</th><th>" . 576*$gs6+650*$i6s+180*$mg+20*$b+$sp . "</td></tr>";
+echo "<tr><th colspan='3'>Total Cost</th><th>$" . (576*$gs6+650*$i6s+180*$mg+20*$b+$sp) . ".00</th></tr>";
 echo "</table>";
 
 ?>
