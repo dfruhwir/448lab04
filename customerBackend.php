@@ -5,7 +5,20 @@ $gs6 = $_POST["s6"];
 $i6s = $_POST["6s"];
 $mg = $_POST["g"];
 $b = $_POST["brick"];
-$s = $_POST["uname"];
+$s = $_POST["ship"];
+
+if($s=="Overnight")
+{
+	$sp=50;
+}
+else if($s=="3 day")
+{
+	$sp=5;
+}
+else
+{
+	$sp=0;
+}
 
 echo "Hello " . $u . "! Thank you for shopping at We Cell Phones!<br>";
 echo "Your password is " . $p . "<br><br>";
