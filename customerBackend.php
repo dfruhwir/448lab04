@@ -1,4 +1,8 @@
 <?php
+echo '<link href="style.css"
+            rel="stylesheet"
+            type="text/css"/>';
+
 $u = $_POST["uname"];
 $p = $_POST["pname"];
 $gs6 = $_POST["s6"];
@@ -20,8 +24,8 @@ else
 	$sp=0;
 }
 
-echo "Hello " . $u . "! Thank you for shopping at We Cell Phones!<br>";
-echo "Your password is " . $p . "<br><br>";
+echo "<h1>Hello " . $u . "! Thank you for shopping at We Cell Phones!<br>";
+echo "Your password is " . $p . "</h1>";
 echo "Here is your receipt:<br>";
 echo "<table><tr>";
 echo "<th></th>"; //first entry is blank
